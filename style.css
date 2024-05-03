@@ -1,0 +1,26 @@
+header{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 30vw;
+    text-align: center;
+}
+#sec-1{
+    border: 1px solid black;
+    width: 80vw;
+    display: flex;
+    margin:top;
+    display: flex;
+   
+}
+.title{
+    background-color: aqua;
+    
+}
+footer{
+    text-decoration: aqua;
+    text-align: center;
+    position: var(border);
+}
+
+
+
