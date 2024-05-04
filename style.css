@@ -1,26 +1,71 @@
-header{
-    background-color: aqua;
-    box-sizing: border-box;
-    width: 30vw;
-    text-align: center;
-}
-#sec-1{
+.registration-form {
+    display: flex;
     border: 1px solid black;
-    width: 80vw;
-    display: flex;
-    margin:top;
-    display: flex;
-   
+    flex-direction: column; 
+   width: 60vw;
+   height: 40vw;
 }
-.title{
-    background-color: aqua;
-    
-}
-footer{
-    text-decoration: aqua;
+.registration-form header {
     text-align: center;
-    position: var(border);
+    background-color: cyan; 
+    padding: 20px;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
 }
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+#left, #right {
+    width: 50%;
+}
+.title {
+    display: block; 
+}
+.button-container {
+    margin-top: auto; 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.button-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-container button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+.button-container button:hover {
+    background-color: #555;
+}
+.checkers{
+    width: 10vw;
+    height: 10vw;
+}
+.checkers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+.checkers a {
+    margin: 0 10px; 
+}
+.checkers img {
+    width: 100px; 
+    height: auto; 
+}
+
 
 
 
